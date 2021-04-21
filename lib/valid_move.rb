@@ -1,5 +1,7 @@
+request "pry"
 # code your #valid_move? method here
 def valid_move?
+  binding.pry
   display_board
 end
 
